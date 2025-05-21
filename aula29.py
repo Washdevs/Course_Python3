@@ -3,4 +3,4 @@ altura = float(input("Digite sua Altura: "))
 peso = int(input("Digite seu Peso: "))
 imc = peso / (altura ** 2)
 
-print(f'{nome} Seu IMC é de: {imc:.2f}')
+print(f'{nome} Seu IMC é de: {imc:.2f}') #F string para formatar strings, :.quantas casas decimais f = :.2f
